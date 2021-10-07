@@ -28,6 +28,6 @@ function deleteElement(e)
 {
     e.target.parentElement.remove()
     quantidade_de_items_n--
-    quantidade_de_items.innerHTML = "Tarefas restantes: "+quantidade_de_items_n
+    quantidade_de_items.innerHTML = '<i class="bi bi-list-task"></i> '+quantidade_de_items_n
 
 }
